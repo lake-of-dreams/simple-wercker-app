@@ -31,6 +31,7 @@ test:
       name: validate
       code: |
           echo "Success"
+          exit(1)
 
 # Deploy to our production servers
 deploy:
