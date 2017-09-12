@@ -25,3 +25,9 @@ build:
         code: |
           echo "hello world!"
 
+test:
+  steps:
+    - script:
+      name: validate
+      code: |
+          echo "Success"
