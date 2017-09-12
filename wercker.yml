@@ -32,6 +32,7 @@ test:
       code: |
           echo "Success"
 
+# Deploy to our production servers
 deploy:
   steps:
     - script:
