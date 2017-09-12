@@ -31,3 +31,10 @@ test:
       name: validate
       code: |
           echo "Success"
+
+deploy:
+  steps:
+    - script:
+      name: deploy
+      code: | 
+          echo "Done"
